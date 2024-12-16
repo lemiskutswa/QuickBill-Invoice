@@ -1,2 +1,2 @@
 # QuickBill-Invoice-Dashboard
-A simple invoices project built with Next.js
+A simple invoice project built with React
