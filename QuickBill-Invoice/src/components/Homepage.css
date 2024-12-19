@@ -1,0 +1,26 @@
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5%;
+}
+
+main h1 {
+    font-weight: bold;
+    text-align: center;
+}
+
+main h2{
+    font-weight: 400;
+    font-size: 1.3em;
+}
+
+main button {
+    margin-top: 1rem;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    color: #fff;
+    background-color: rgb(0, 136, 255);
+    border: none;
+}
