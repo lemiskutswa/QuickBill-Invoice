@@ -19,6 +19,28 @@ main h2{
     font-size: 1.3em;
 }
 
+main span{
+    font-size: 1.2rem;
+    animation: colorChange 5s infinite;
+    /*text-shadow: 0 0 5px rgb(86, 187, 255), 0 0 10px #0ff, 0 0 20px #0ff, 0 0 40px #0ff, 0 0 80px #0ff;*/
+}
+
+@keyframes colorChange {
+    0% {
+      color: rgb(35, 25, 147);
+    }
+    33% {
+      color: rgb(47, 47, 169);
+    }
+    66% {
+      color: rgb(0, 106, 255);
+    }
+    100% {
+      color: rgb(87, 192, 253);
+    }
+  }
+
+
 main button {
     margin-top: 1rem;
     padding: 0.5rem 2rem 0.5rem 2rem;
@@ -41,7 +63,7 @@ main button {
 }
 
 .service-div{
-    background-color: rgb(43, 144, 226);
+    background-color: rgb(207, 225, 240);
     height: 300px;
     width: 300px;
     border-radius: 7px;
@@ -50,4 +72,22 @@ main button {
 
 .service-div:hover{
     transform: translateY(-10px)
+}
+
+.service-div i{
+    font-size: 4rem;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.service-title{
+    font-size: 1.5rem;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.service-description{
+    font-size: 1rem;
+    margin-left: 20px;
+    margin-top: 15px;
 }
