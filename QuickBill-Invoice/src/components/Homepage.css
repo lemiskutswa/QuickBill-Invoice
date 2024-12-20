@@ -20,24 +20,30 @@ main h2{
 }
 
 main span{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     animation: colorChange 5s infinite;
+    font-weight: bold;
     /*text-shadow: 0 0 5px rgb(86, 187, 255), 0 0 10px #0ff, 0 0 20px #0ff, 0 0 40px #0ff, 0 0 80px #0ff;*/
 }
 
 @keyframes colorChange {
     0% {
       color: rgb(35, 25, 147);
+      
     }
+
+    66% {
+        color: rgb(0, 106, 255);
+      }
+    
+      100% {
+        color: rgb(87, 192, 253);
+      }
     33% {
       color: rgb(47, 47, 169);
     }
-    66% {
-      color: rgb(0, 106, 255);
-    }
-    100% {
-      color: rgb(87, 192, 253);
-    }
+
+
   }
 
 
