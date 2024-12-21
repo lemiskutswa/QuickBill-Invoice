@@ -8,6 +8,7 @@ export default function Home() {
             <h2>Create and delete invoices, and check how we're working towards our financial targets.</h2>
             <span>Let's work together!</span>
             <button>Log in &#8594;</button>
+            <button>Sign Up </button>
             <h1 className="services-title">Services</h1>
             <div className="services">
             
