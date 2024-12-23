@@ -7,8 +7,8 @@ This is a simple employee dashboard-type website where authorized persons can lo
 
 <h1>Installation</h1>
 This is a react.js app. You must have Node.js installed. If you haven't run:
-```npm install node.js
-```
+                        npm install node.js
+
 Then clone this repository into your local machine. Then install Vite by running:
     npm install vite
 After Vite is installed, navigate to the project's repository and run:
