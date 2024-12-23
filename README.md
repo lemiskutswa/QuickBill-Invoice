@@ -5,8 +5,10 @@ This is a simple employee dashboard type website where authorized persons can lo
 - Customers (Who have received invoices)
 - Revenue (Amount collected against amount pending)
 
-<h1>Description</h1>
-
+<h1>Installation</h1>
+This is a react.js app. You must have Node.js installed. If you haven't run:
+    npm install node.js
+First install clone this repository into your local machine. Then install
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
