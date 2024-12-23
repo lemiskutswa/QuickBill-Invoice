@@ -7,12 +7,15 @@ This is a simple employee dashboard-type website where authorized persons can lo
 
 <h1>Installation</h1>
 This is a react.js app. You must have Node.js installed. If you haven't run:
-`npm install node.js`
+
+                        npm install node.js
 
 Then clone this repository into your local machine. Then install Vite by running:
-    npm install vite
+                        npm install vite
+
 After Vite is installed, navigate to the project's repository and run:
-    npm run dev
+                        npm run dev
+                        
 Click the local host link to view the app in your browser.
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
