@@ -10,7 +10,7 @@ This is a react.js app. You must have Node.js installed. If you haven't run:
 
 ```markdown
     npm install node.js
-
+```
 
 Then clone this repository into your local machine. Then install Vite by running:
 
