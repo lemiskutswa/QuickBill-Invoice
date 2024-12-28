@@ -7,7 +7,7 @@ import Dashboard from './components/pages/Dashboard'
 import Login from './components/pages/Login'
 import Home from './components/pages/Home'
 import SignUp from './components/pages/SignUp'
-
+import AuthForm from "./components/ui/AuthForm";
 
 function App() {
   return(
@@ -21,6 +21,8 @@ function App() {
           <Route path="/dashboard" element={<Dashboard />}/>
           <Route path="/login" element={<Login />}/>
           <Route path="/signup" element={<SignUp />}/>
+          <Route path="/log-in" element={<AuthForm type="log-in" />} />
+          <Route path="/sign-up" element={<AuthForm type="sign-up" />} />
         </Routes>
     </div>
 

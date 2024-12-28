@@ -1,6 +1,12 @@
 import React from 'react'
+import AuthForm from '../ui/AuthForm'
 
-export default function Login() {
-    return <h1>Log in</h1>
-
+const SignUp = () => {
+  return (
+   <section className='flex flex-col items-center justify-center min-h-screen bg-gray-50'>
+        <AuthForm type='log-in'/>
+   </section>
+  )
 }
+
+export default SignUp
