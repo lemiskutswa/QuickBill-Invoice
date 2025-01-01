@@ -29,9 +29,6 @@ export default function Navbar() {
                     <NavLink to="/about">About</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/login">Log in</NavLink>
-                </li>
-                <li>
                     <NavLink to="/signup">SignUp</NavLink>
                 </li>
             </ul>
