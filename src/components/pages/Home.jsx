@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link} from 'react-router-dom'
 import '../Homepage.css'
 
 export default function Home() {
@@ -8,8 +9,14 @@ export default function Home() {
             <h2>Create and delete invoices, and check how we're working towards our financial targets.</h2>
             <span>Let's work together!</span>
             <div className="login-signup">
-                <button className="login-btn">Log in &#8594;</button>
-                <button className="signup-btn">Sign Up </button>
+                <Link to="/login">
+                    <button className="login-btn">Log in &#8594;</button>
+                </Link>
+
+                <Link to="/signup">
+                    <button className="signup-btn">Sign Up </button>                
+                </Link>
+    
             </div>
             <h1 className="services-title">Services</h1>
             <div className="services">
