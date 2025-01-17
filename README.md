@@ -20,6 +20,7 @@ After Vite is installed, navigate to the project's repository and run:
 
     npm run dev
 
+Before you start working on the project ensure you create a git branch and name it your own name. Work on the git branch and create a pull request which will be reviewed and merged later on.
 Click the local host link to view the app in your browser.
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
