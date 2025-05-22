@@ -32,7 +32,7 @@ export default function Home() {
                     <p className='service-description'>See how much we've collected monthly, quartely, and annually. Find out if we're meeting our targets</p>
                 </div>
                 <div className="service-div">
-                    <i class="fa fa-id-card-o" aria-hidden="true"></i>
+                    {/*<i clasName ="fa fa-id-card-o" aria-hidden="true"></i>*/}
                     <p className='service-title'>Customers Dashboard</p>
                     <p className='service-description'>Find out how customers are meeting their payment deadlines. Who are our most profitable customers?</p>
                 </div>
