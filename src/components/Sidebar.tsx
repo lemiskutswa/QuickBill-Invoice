@@ -1,5 +1,12 @@
 import React from 'react'
+import './sidebar.css'
 
-React.useState()
+export default function Sidebar() {
+    return(
+        <div>
+            <p>Hello World</p>
+        </div>
+    )
+}
 
 
